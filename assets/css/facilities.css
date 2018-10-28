@@ -1,0 +1,162 @@
+body{
+	background: linear-gradient(90deg, #ddd 10%, #eff 40% , #eff 60%, #ddd 90%);
+}
+
+.amenities{
+	width: 25%;
+	display: inline-block;
+	margin: 4%;
+	height: 400px;
+	/*background: red;*/
+	position: relative;
+	box-shadow: 5px 5px 5px black;
+}
+
+
+.amenities .front{
+	position: absolute;
+	transform: perspective(600px) rotateY(0deg);
+	-webkit-transform: perspective(600px) rotateY(0deg);
+	-o-transform: perspective(600px) rotateY(0deg);
+	-moz-transform: perspective(600px) rotateY(0deg);
+	-ms-transform: perspective(600px) rotateY(0deg);
+	height: 400px;
+	width: 100%;
+	backface-visibility: hidden;
+	transition: transform linear 1s;
+	-webkit-transition: -webkit-transform linear 1s;
+	-o-transition: -o-transform linear 1s;
+	-moz-transition: -moz-transform linear 1s;
+	-ms-transition: -ms-transform linear 1s;
+
+}
+.amenities .front h2{
+	color: white;
+	text-shadow: 0 0 10px black;
+	background: rgba(0,0,0,0.3);
+	line-height: 400px;
+	text-align: center;
+}
+.amenities .back{
+	background: rgb(50,50,50);
+	position: absolute;
+	transform: perspective(600px) rotateY(180deg);
+	-webkit-transform: perspective(600px) rotateY(180deg);
+	-o-transform: perspective(600px) rotateY(180deg);
+	-moz-transform: perspective(600px) rotateY(180deg);
+	-ms-transform: perspective(600px) rotateY(180deg);
+	height: 400px;
+	width: 100%;
+	backface-visibility: hidden;
+	transition: transform linear 1s;
+	-webkit-transition: -webkit-transform linear 1s;
+	-o-transition: -o-transform linear 1s;
+	-moz-transition: -moz-transform linear 1s;
+	-ms-transition: -ms-transform linear 1s;
+}
+.amenities .back p{
+	/*height: 300px;*/
+	/*margin: 50px 10%;*/
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	width: 80%;
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
+.amenities:hover .front{
+	transform: perspective(600px) rotateY(-180deg);
+	-webkit-transform: perspective(600px) rotateY(-180deg);
+	-o-transform: perspective(600px) rotateY(-180deg);
+	-moz-transform: perspective(600px) rotateY(-180deg);
+	-ms-transform: perspective(600px) rotateY(-180deg);
+}
+.amenities:hover .back{
+	transform: perspective(600px) rotateY(0deg);
+	-webkit-transform: perspective(600px) rotateY(0deg);
+	-o-transform: perspective(600px) rotateY(0deg);
+	-moz-transform: perspective(600px) rotateY(0deg);
+	-ms-transform: perspective(600px) rotateY(0deg);
+}
+
+#hm .front{
+	background: url("../images/Facilities/Food/hm.jpg") no-repeat;
+	background-size: cover;
+}
+#ar .front{
+	background: url("../images/Facilities/Food/ar.jpg") no-repeat;
+	background-size: cover;
+}
+#fc .front{
+	background: url("../images/Facilities/Food/fc.jpg") no-repeat;
+	background-size: cover;
+}
+
+
+#fball .front{
+	background: url("../images/Facilities/Sports/fball.jpg") no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	animation: slidePic 4s linear infinite alternate;
+
+}
+#cricket .front{
+	background: url("../images/Facilities/Sports/cricket1.jpg") no-repeat;
+	background-size: cover;
+	animation: slidePic 8s linear infinite alternate;
+}
+#bball .front{
+	background: url("../images/Facilities/Sports/bball.jpg") no-repeat;
+	background-size: cover;
+	animation: slidePic 4s linear infinite alternate;
+	
+}
+
+
+#gym .front{
+	background: url("../images/Facilities/gym.jpg") no-repeat;
+	background-size: cover;
+	background-position: bottom;
+
+}
+#meeting .front{
+	background: url("../images/Facilities/meeting.jpg") no-repeat;
+	background-size: cover;
+	animation: slidePic 10s linear infinite alternate;
+}
+#library .front{
+	background: url("../images/Facilities/library.jpg") no-repeat;
+	background-size: cover;
+	animation: slidePic 4s linear infinite alternate;
+
+}
+
+@keyframes slidePic{
+	0%{
+		background-position: left;
+	}
+	100%{
+		background-position: right;
+	}
+}
+
+#bakery .front{
+	background: url("../images/Facilities/bakery.jpg") no-repeat;
+	background-size: cover;
+}
+#laundry .front{
+	background: url("../images/Facilities/laundry.jpg") no-repeat;
+	background-size: cover;
+	background-position: left;
+}
+#tt .front{
+	background: url("../images/Facilities/tt.jpg") no-repeat;
+	background-position: left;
+	background-size: cover;
+}

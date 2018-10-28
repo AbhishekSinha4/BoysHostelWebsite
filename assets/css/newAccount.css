@@ -1,0 +1,15 @@
+h2{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	padding: 20px;
+	background: rgb(240,240,240);
+	border: 2px solid #021b38;
+	border-radius: 10px;
+}
+footer{
+	position: absolute;
+	width:100%;
+	bottom:0;
+}

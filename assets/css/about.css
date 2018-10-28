@@ -1,0 +1,70 @@
+body{
+	background: url("../images/backgrounds/spiral.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#container{
+	width: 70%;
+	margin: 0 auto;
+	/*min-height: 820px;*/
+}
+#column-1 div,#column-2 div, #advantages, #poi{
+	background: rgba(255,255,255,0.6);
+	border: 1px solid #021b38;
+	margin: 10px 0;
+
+}
+h2{
+	padding: 20px;
+
+}
+#column-1{
+	width:40%;
+	box-sizing: border-box;
+	margin: 20px;
+	padding: 40px 40px 40px 40px;
+	float: left;
+	margin-bottom: 0;
+
+}
+#column-2{
+	width: 50%;
+	float: left;
+	margin: 20px;
+	margin-top: 50px;
+	margin-bottom: 0;
+
+}
+#at-a-glance, #quick-procedure, #local-guardian{
+	display: inline-block;
+	padding: 20px 40px 40px 40px;
+	float: left;
+}
+#advantages, #poi{
+	box-sizing: border-box;
+	margin : 0 auto 30px auto;
+	padding: 40px;
+	width: 90%;
+	padding-top: 10px ;
+
+}
+#ata-glance h2{
+	font-size: 2.5em;
+}
+#at-a-glance ul{
+	/*list-style-type: square;*/
+}
+#video-container{
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 5px;
+
+}
+#video-container video{
+	display: inline-block;
+	width: 90%;
+}
+#clearing{
+	clear: both;
+}

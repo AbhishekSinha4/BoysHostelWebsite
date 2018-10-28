@@ -1,0 +1,83 @@
+body{
+	/*background: linear-gradient(90deg, rgb(250,250,250) 0%, rgb(240,240,240) 30%, rgb(230,230,230) 50%, rgb(240,240,240) 70%, rgb(250,250,250) 100%);*/
+	background: url("../images/backgrounds/bricks.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Helvetica;
+}
+#error-box{
+	display: none;
+	width: 30%;
+	min-width: 400px;
+	margin: 75px auto 50px auto;
+	color: #a94442;
+	background: #f2dede;
+	box-sizing: border-box;
+	padding:10px;
+
+}
+#error-head{
+	font-weight: bolder;
+}
+#form-container{
+	border: 10px #021b38 solid;
+	padding: 20px;
+	background: rgba(255,255,255,0.4);
+	border-radius: 10px;
+	width: 30%;
+	min-width: 400px;
+	margin: 100px auto;
+}
+#form-container h1{
+	text-align: center;
+}
+#form-container table{
+	margin-top: 25px;
+	min-height: 300px;
+	width: 100%;
+}
+#form-container h2{
+	margin: 20px 0;
+}
+#form-container input{
+	transform:translateX(-33.3%);
+	width: 150%;
+	min-height: 30px;
+	margin: 5px 0;
+}
+#form-container select{
+	transform:translateX(-33.3%);
+	width: 150%;
+	min-height: 30px;
+	margin: 5px 0;
+}
+#form-container p{
+	display: inline-block;
+	float: left;
+	margin: 10px -10px 10px 0;
+	line-height: 100%;
+	width: 90%;
+}
+#form-container input[type="checkbox"]{
+	width: 10%;
+	transform: none;
+}
+#form-container input[type="submit"]{
+	transform: none;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	width: 100px;
+}
+#form-container textarea{
+	transform:translateX(-33.3%);
+	width: 150%;
+	display: block;
+	height: 100px;
+	margin: 0 0 0 auto;
+}
+
+#passw-status{
+	font-weight: bolder;
+	font-size: 1.2em;
+}

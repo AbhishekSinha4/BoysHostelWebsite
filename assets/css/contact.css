@@ -1,0 +1,50 @@
+body{
+	background: url("../images/backgrounds/tele.jpg") no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
+h2{
+	text-align: center;
+	color: #ddd;
+	font-size: 2em;
+	font-family: cursive Calibri;
+	margin: 20px;
+}
+#parent-container{
+	width: 40%;
+	margin: 20px auto;
+	text-align: center;
+	background: rgba(0,0,0,0.8);
+	border: 1px solid rgba(255,255,255,0.5);
+}
+#parent-container div{
+	color: white;
+	text-shadow: 0 0 2px black;
+}
+#container div{
+	width: 39%;
+	box-sizing: border-box;
+	padding: 20px;
+	display: inline-block;
+	background: rgba(250,250,250,0.5);
+	height: 80px;
+	margin: 2%;
+	line-height: 40px;
+}
+#address-container div{
+	width: 39%;
+	display: inline-block;
+	padding: 20px;
+	margin: 2%;
+	box-sizing: border-box;
+	vertical-align: top;
+	background: rgba(250,250,250,0.5);
+	
+}
+#address-container .col1{
+	padding-bottom: 60px;
+
+}
+.col1{
+	font-weight: 900;
+}

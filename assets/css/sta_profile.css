@@ -1,0 +1,156 @@
+body{
+	/*background: linear-gradient( 90deg, rgb(180,180,180) 10%, white 50%, rgb(180,180,180) 90%);*/
+	background: url("../images/backgrounds/sta_bk.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#container{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 80px;
+
+}
+td,fieldset{
+	padding: 10px;
+}
+fieldset{
+	margin: 10px;
+}
+
+
+h1{
+	margin: 30px;
+	color: white;
+	font-size: 3.5em;
+	text-align: center;
+	text-shadow: 0 0 10px rgb(0,0,200);
+}
+td,.table-container{
+	padding: 20px;
+}
+.table-container{
+	background: rgba(255,255,255,0.5);
+	text-align: center;
+	margin: 30px 100px;
+	/*border: 10px solid #021b38;*/
+}
+.table-container h2{
+	text-shadow: 0px 0px 10px white;
+	/*margin: 0 110px;*/
+	font-size: 2em;
+	/*background: white;*/
+}
+table{
+	border-collapse: collapse;
+	border: 10px solid #021b38;
+	display: inline-block;
+}
+tr:nth-of-type(even){
+	background: #ffff78;
+}
+tr:nth-of-type(odd){
+	background: #ffffff;
+}
+
+.details{
+	font-weight: 900;
+}
+
+#privileges{
+	width: 60%;
+	margin: 70px auto;
+} 
+#privileges h2{
+	margin: 40px 0;
+	color: white;
+	text-shadow: 0 0 10px rgb(0,0,200);
+}
+#privileges .cmd_btn{
+	font-size: 1.5em;
+	font-family: Calibri;
+	/*font-weight: bold;*/
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+	padding: 10px;	
+}
+.cmd_container{
+	width: 80%;
+	margin: 10px auto;
+	padding: 10px;	
+}
+.container_form form{
+	background: rgba(240,240,240,0.5);
+	font-weight: 700;
+	width: 100%;
+	margin: 20px 0 0px 0;
+	border: #021b38 solid 1px;
+	border-radius: 5px;
+}
+.container_form{
+	display: none;
+} 
+.container_form input,textarea{
+	border-radius: 5px;
+	border: black solid 1px;
+	display: block;
+	width: 80%;
+	padding: 10px;
+	margin: 10px auto;
+}
+.container_form p{
+	width: 80%;
+	padding: 10px;
+	padding-left: 40px;
+}
+.container_form input[type='submit']{
+	box-sizing: content-box;
+}
+.hide_btn{
+	padding: 10px 20px;
+	margin: 10px 0;
+
+}
+.error-box,.message{
+	display: none;
+	/*width: 30%;*/
+	min-width: 400px;
+	margin: 10px auto 10px auto;
+	color: #a94442;
+	background: #f2dede;
+	box-sizing: border-box;
+	padding:10px;
+
+}
+.message.success{
+	background: #adf2ad;
+	color: #009e06;
+}
+.error-head{
+	font-weight: bolder;
+}
+
+
+#inbox-container{
+	padding-left: 40px;
+	color: black;
+	width: 60%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+#inbox-btn{
+	border: none;
+	outline: none;
+	height: 40px;
+}
+#inbox-btn a{
+	padding: 0 10px;
+	line-height: 40px;
+	color: black;
+}
+#inbox-container a:hover {
+	display: block;
+	color: black;
+	text-decoration: underline;
+}

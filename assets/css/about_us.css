@@ -1,0 +1,45 @@
+body>h2{
+	font-size: 2em;
+	text-align: center;
+	margin: 40px 0;
+
+}
+#profile-circle{
+	border: 1px solid white;
+	width: 220px;
+	height: 220px;
+	box-sizing: border-box;
+	padding-top: 10px;
+	margin: 40px auto 0 auto;
+	border-radius: 50%;
+}
+#profile-pic-wrapper{
+	position: relative;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.team{
+	display: inline-block;
+	width: 28%;
+	margin: 2.5%;
+	margin-top: 0;
+	background: rgba(235,235,235,0.5);
+	padding: 50px 30px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.team #profile-pic{
+	margin: 0 auto;
+	border-radius: 50%;
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+.team .text{
+	margin: 40px;
+}

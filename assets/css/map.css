@@ -1,0 +1,23 @@
+h2{
+	font-size: 2.5em;
+	width: 60%;
+	margin: 0 auto;
+	/*text-align: center;*/
+	margin-top: 20px;
+}
+iframe{
+	background: white;
+	display: block;
+	margin: 15px auto 20px auto;
+	border:10px solid #021b38;
+}
+body{
+	background: rgb(240,240,240);
+}
+body>p{
+	width: 50%;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}

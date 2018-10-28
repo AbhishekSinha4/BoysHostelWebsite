@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: Calibri;
+}
+#banner{
+	height: 900px;
+	position: relative;
+	background: url("../images/backgrounds/hostelBK.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#banner>h1{
+	font-size: 3.5em;
+	position: absolute;
+	left:50%;
+	top:45%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	text-shadow: 1px 1px 10px white;
+}
+
+
+#nav li{
+	display: block;
+	height: 400px;
+}
+#nav a h2{
+	float: left;
+	display: block;
+	width: 50%;
+	line-height: 400px;
+	text-align: center;
+	color: black;
+}
+#nav a .outline{
+	color: black;
+	float:left;
+	width: 50%;
+	height: 400px;
+	padding: 125px 50px;
+	box-sizing: border-box;
+}
+#nav p{
+	font-style: italic;
+}
+#nav li:nth-of-type(even) a h2{
+	float: right;
+}
+#nav li:nth-of-type(even){
+	background: #ffff78;
+}
+
+#nav li:hover h2{
+	text-decoration: underline;
+}
+
+footer{
+	color: #ffffff;
+	margin-top: 20px;
+	border-top: 1px solid #999999;
+	background: #021b38;
+	font-size: 0.7em;
+	text-align: center;
+}
+footer ul{
+	height: 20px;
+	line-height: 20px;
+	list-style-type: none;
+	margin: 0 auto;
+	display: inline-block;
+}
+footer ul li{
+	float: left;
+	margin: 0 5px;
+}
+

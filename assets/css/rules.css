@@ -1,0 +1,11 @@
+body{
+	background: url("../images/backgrounds/rulesBK.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#container{
+	width: 60%;
+	padding: 40px;
+	margin: 50px auto;
+	background: rgba(255,255,255,0.5);
+}

@@ -1,0 +1,62 @@
+body{
+	/*position: absolute;*/
+	background: url("../images/backgrounds/loginBK1.jpg") no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+#error-box{
+	display: none;
+	width: 30%;
+	min-width: 400px;
+	margin: 75px auto 50px auto;
+	color: #a94442;
+	background: #f2dede;
+	box-sizing: border-box;
+	padding:10px;
+
+}
+#login{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid #021b38;
+	border-radius: 20px;
+	padding: 30px 30px 10px 30px;
+	background: rgb(230,230,230);
+	color: #021b38;
+}
+#login h2{
+	margin-bottom: 15px;
+}
+#submitt #submit{
+	padding: 5px 10px;
+    line-height: 30px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    transition: none;
+    -webkit-transition:none;
+    -moz-transition:none;
+}
+#submitt #submit:hover {
+	font-weight: 700;
+	/*border: 2px solid #021b38;*/
+	/*box-sizing: border-box;*/
+}
+#submitt #submit:active{
+	background: #021b38;
+	color: white;
+}
+input{
+	height: 20px;
+	border: 1px solid #021b38;
+}
+
+
+footer{
+	position: absolute;
+	width:100%;
+	bottom:0;
+}

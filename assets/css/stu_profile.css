@@ -1,0 +1,101 @@
+body{
+	/*background: linear-gradient( 90deg, rgb(180,180,180) 10%, white 50%, rgb(180,180,180) 90%);*/
+	background: url("../images/backgrounds/stu_bk.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#container{
+	margin-top: 40px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+h1{
+	margin: 30px;
+	font-size: 3.5em;
+	text-align: center;
+	text-shadow: 0 0 10px rgb(0,0,0);
+	color: white;
+}
+td,.table-container{
+	padding: 20px;
+}
+.table-container{
+	background: rgba(255,255,255,0.5);
+	text-align: center;
+	margin: 30px 100px;
+	/*border: 10px solid #021b38;*/
+}
+.table-container h2{
+	text-shadow: 0px 0px 10px white;
+	/*margin: 0 110px;*/
+	font-size: 2em;
+	/*background: white;*/
+}
+table{
+	border-collapse: collapse;
+	border: 10px solid #021b38;
+	display: inline-block;
+}
+tr:nth-of-type(even){
+	background: #ffff78;
+}
+tr:nth-of-type(odd){
+	background: #ffffff;
+}
+
+.details{
+	font-weight: 900;
+}
+
+#review{
+	padding: 10px;
+	margin: 30px;
+}
+#review-form-container{
+	margin: 30px;
+	margin-top: 10px;
+	display: none;
+}
+#review-form-container form{
+	background: rgba(255,255,255,0.5);
+	width: 70%;
+	padding: 20px;
+}
+#review-form-container textarea{
+	width: 500px;
+	height: 100px;
+}
+#submit{
+	width: 500px;
+	padding: 10px;
+	display: block;
+}
+#hide{
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.message{
+	display: none;
+	/*width: 30%;*/
+	min-width: 400px;
+	margin: 10px auto 10px 30px;
+	margin-top: 0;
+	color: #a94442;
+	background: #f2dede;
+	box-sizing: border-box;
+	padding:10px;
+
+}
+.message.success{
+	background: #adf2ad;
+	color: #009e06;
+}
+
+footer{
+	/*position: fixed;*/
+	bottom: 0;
+	width: 100%;
+}
