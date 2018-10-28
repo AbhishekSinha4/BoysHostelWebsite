@@ -273,13 +273,6 @@
 		}
 	?>
 </div>
-<?php
-if($_SESSION["sta_id"]==='WARDEN1'){
-	echo "<div id='inbox-container'>
-		  	  <button id='inbox-btn'><a href='inbox.php' target='_blank'>Go To Inbox >></a></button>
-		  </div>";
-}
-?>
 
 <footer>
 	<ul>
