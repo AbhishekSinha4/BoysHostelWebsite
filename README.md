@@ -21,3 +21,4 @@ Staff can make announcements.
 
 To run the project, apart from downloading the project, the sql file must be uploaded to a server and then referenced instead of the references made in the current project. Server used for the purposes of this project was xampp and database was on phpMyAdmin.
 
+The current code uses the command mysqli_connect to connect to the database. Replace arguments with appropriate hostname, username and password to connect to the database instead of the current username and password.
