@@ -1,6 +1,6 @@
 # Boys Hostel Website
 *This project is a sample website for my colleges' boys hostel.*
-### 3rd Semester Web Development project
+## 3rd Semester Web Development project
 It makes use of the following technologies:
 * HTML (HTML5) 
 * CSS (CSS3)
